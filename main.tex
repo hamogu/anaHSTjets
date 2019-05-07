@@ -1,0 +1,312 @@
+\documentclass[twocolumn]{aastex62}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+%% Reintroduced the \received and \accepted commands from AASTeX v5.2
+\received{...}
+\revised{...}
+\accepted{...}
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the argument.
+%\submitjournal{ApJ}
+
+
+\begin{document}
+
+\title{Spatially resolved velocity structure in jets from classical T Tauri stars}
+
+
+\correspondingauthor{Anastasiia V Uvarova}
+\email{avu@mit.edu}
+
+\author{Anastasiia V Uvarova}
+\affil{MIT, Kavli Institute for Astrophysics and Space Research, 77 Massachusetts Avenue, Cambridge, MA 02139, USA}
+
+\author[0000-0003-4243-2840]{Hans Moritz G\"unther}
+\affil{MIT, Kavli Institute for Astrophysics and Space Research, 77 Massachusetts Avenue, Cambridge, MA 02139, USA}
+
+\author{D. A. Principe}
+\affil{MIT, Kavli Institute for Astrophysics and Space Research, 77 Massachusetts Avenue, Cambridge, MA 02139, USA}
+
+\author{P. C. Schneider}
+\affil{Hamburger Sternwarte, Universit\"at Hamburg, Gojenbergsweg 112, 21029, Hamburg, Germany}
+
+\begin{abstract}
+Young stars accrete mass and angular momentum from their circumstellar
+disks. Some of them also drive outflows, which can be distinguished in
+optical forbidden emission lines (FELs). We reanalyze a sample of binary
+T Tauri stars observed with long-slit spectroscopy by the Hubble space
+telescope, searching for spatially resolved outflows. We can resolve jet
+and counterjet in two objects. RESULTS HERE%
+\end{abstract}%
+
+
+
+
+\section{Introduction}
+
+Star formation occurs when large clouds of gas and dust collapse due to
+gravity. The clouds are inhomogeneous in density and they fragment into
+smaller structures, where the center of each collapsing sub-cloud will
+become a star or system of stars. Very few of the resulting stars are
+massive and hot, by far the largest number will evolve into late-type
+stars with spectral types in the M-F range. Most of those stars for in binary or multiple systems \citep[see e.g.\ review by][]{2007prpl.conf..379D}.
+The infalling envelope
+flattens to a circumstellar disk, making the central star visible in the
+optical. Low-mass stars in this stage are called classical T Tauri stars
+(CTTS). For a few Myrs, planet formation can take place before the disk
+disperses. For binaries or higher-order multiple systems, the disk can
+belong to an individual star or surround a close binary pair depending
+on the mass and separation of the components.
+
+Mass is accreted through these disks on the the stars. However,
+conservation of angular momentum demands that some mass is ejected and
+carries away a larger fraction of the angular momentum accreted through
+the disk, otherwise the star would spin up until it breaks apart. Mass
+loss occurs through wide-angle disk winds, but in some systems we can
+also see highly collimated jets. These jets typically have an onion-like
+structure with a fast component at the center surrounded by increasingly
+slower and less well-collimated components further
+out~\cite{2000ApJ...537L..49B}. Forbidden optical emission lines (FELs) are a
+good way to find and study such jets, since the stellar photosphere and
+the accretion shock are too dense to contribute to the emission. If a
+jet is detected in several emission lines, line ratios can be used to
+calculate density and ionization fraction of emission components in the
+jet with typical densities in the range~$10^3-10^5cm^{-3}$
+\citep[e.g.][]{1999A&A...342..717B,2000A&A...356L..41L,2013A&A...550L...1S}. In turn
+the density and the velocity give mass loss rates. Different outflow
+components show different velocities. For example, in the well-studied
+CTTS DG Tau~\citet{2013A&A...550L...1S} find [O~{\sc i}] in a low-velocity
+component (LVC, about 60~\(km\ s^{-1}\)) which can be detected as
+close as 15 au from the star and a medium-velocity component (MVC, about
+130~\(km\ s^{-1}\)) first detected at about 50 au from the source
+which slows down further out. While a single spectrum is sufficient to
+detect the presence of an FEL, we need spatially resolved data to study
+how outflows accelerate and decelerate. In this work, we reanalyze
+archival data from the Hubble Space Telescope (HST) Program ID 9310 to
+search for FELs that are spatially resolved.
+
+In section~\ref{sect:obs} we describe the observations and the data reduction. Section~\ref{sect:results} gives our immediate results. We discuss the resolved emission from DF~Tau and UY~Aur in section~\ref{sect:discussion} and end with a short summary in section~\ref{Sect:summary}.
+
+\section{Observations and data reduction}
+\label{sect:obs}
+
+Hubble Space Telescope (HST) Program ID 9310 targets binary T Tauri
+stars with long-slit spectroscopy using the Space Telescope Imaging
+Spectrograph (STIS). The long slit is always oriented such that both
+components of the binary are observed. \citet{2003ApJ...583..334H} analyze the
+spectra of both stellar components to determine stellar properties and
+accretion diagnostics. In this work, we aim to spatially resolve the
+emission in FELs along the slit, i.e. jets, around those stars.
+
+We retrieved all data sets of Program ID 9310 from the archive, see
+table \textbf{NUBMERHERE} for a list of observations.
+
+We start our analysis from the pipeline reduced
+2-dimensional~\texttt{sx2} files; these files have one spectral axis and
+one spatial axis for the coordinate along the slit. For each column
+in~\texttt{sx2} we fit a single Gaussian, taking into account regions
+flagged for data quality by the pipeline. While this does not capture
+all features of the instrument PSF, it describes the signal close to the
+peak of the emission well and allows a numerically stable fit of the
+position of the peak.
+
+If both components of the binary system are within a few arcseconds if
+each other, we have to fit a sum of two Gaussians. All fits are
+visually inspected. Due to the distortion corrections done in the data
+pipeline, the position of the peak of the Gaussian~changes slightly with
+wavelength in a smooth manner. The scatter in the fit results can be
+taken as an estimate of uncertainty of our fits. We search for changes
+of the fitted position of the Gaussian, i.e. changes in the mean
+position of the emission around the wavelength of forbidden emission
+lines (FELs) (see table 1). Limiting our search in this way reduces the
+rate of false-positives. Since FELs can only be formed in low-density
+environments, they are tracers of outflows and cannot originate on the
+star.
+
+Below, we show those data as position-velocity-diagrams (PVD), where the
+origin of the especial coordinate is set on the position of the
+brightest star and the velocity is derived from the rest-wavelength of
+the a feature and the radial velocity of the star. In a PVD, resolved
+FEL emission is seen as~ a bulge in the vicinity of the rest wavelength
+in the emission line, if the direction of the slit roughly aligns with
+the direction of the jet.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.70\columnwidth]{figures/DF-Tau-unsbs/DF-Tau-unsbs}
+\caption{{Position velocity diagrams for DF Tau; the two components of the binary
+are not resolved.T he x-axis shows the velocity with respect to the
+feature rest wavelength in the velocity frame of the star \textbf{(which
+one? Or do they have the same radial velocity?)} and the y-axis the
+distance along the slit. In the left panel, resolved emission is visible
+around~\(\pm200\ \mathrm{km\ s^{-1}}\).
+\label{fig:DFTau}
+}}
+\end{center}
+\end{figure}
+
+%\textbf{TABLE WITH THE
+%LINES~\url{http://classic.sdss.org/dr6/algorithms/linestable.html}}
+
+\begin{table}[h]
+\caption{{Lines searched spatial extension\label{tab:searchedlines}}}
+\begin{tabular}{cc}
+\hline\hline
+line & wavelength [\AA] \\{}
+\hline
+[O I] & 6302.0\\{}
+[O I] & 6365.5\\{}
+[O III] & 5008.240\\{}
+[O III] & 4960.295\\{}
+[O III] & 4364.436\\{}
+[N II] & 6549.86\\{}
+[N II] & 6585.27\\{}
+[S II] & 6718.29\\{}
+[S II] & 6732.67\\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.70\columnwidth]{figures/Gaussian-fit-example2/Gaussian-fit-example2}
+\caption{This is a caption
+}
+\end{center}
+\end{figure}
+
+\textbf{Unclear how exactly we did this. Assume constant y and refit for
+height at all positions?}
+
+To look at the jets in these selected stars we used a subtraction and
+eliminated the brighter emission of the stars themselves. For each
+wavelength we subtract the Gaussian fit from the stars' profile, which
+leaves behind a background and any unusual emission. In these left over
+images should be able to see jets, if there are any, and to examine more
+closely the profiles and intensities of the jets. Since we are only
+interested in looking at the vicinity of the oxygen lines, we selected a
+region around these lines and performed the subtraction. The images are
+shown in Fig.(ref).
+
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.70\columnwidth]{figures/DF-Tau/DF-Tau}
+\caption{\textbf{~} \textbf{Make these plots go from -0.5 to +0.5 arcsec - there
+is nothing else to see.} Position velocity diagrams for subtracted image
+of DF Tau; the two components of the binary are not resolved.T he x-axis
+shows the velocity with respect to the feature rest wavelength in the
+velocity frame of the star \textbf{(which one? Or do they have the same
+radial velocity?)} and the y-axis the distance along the slit. The
+emission from the two stars has been removed and only the resolved
+emission can be seen. In the left panel, resolved emission is visible
+around~\(\pm200\ \mathrm{km\ s^{-1}}\).
+}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.70\columnwidth]{figures/UY-Aur/UY-Aur}
+\caption{\textbf{Make this plot go from -1.2 to 0.5 arcsec. There is nothing to
+be seen in the other region.~}Position velocity diagrams for subtracted
+image of UY Aur; The x-axis shows the velocity with respect to the
+feature rest wavelength in the velocity frame of the star~\textbf{UY Aur
+A (?)} and the y-axis the distance along the slit.~ The emission from
+the two stars has been removed and only the resolved emission can be
+seen. In the left panel, resolved emission is visible around~
+\(-100\ \mathrm{km\ s^{-1}}\).
+\label{fig:UYAur}
+}
+\end{center}
+\end{figure}
+
+\section{Results}
+\label{sect:results}
+
+
+\subsection{Detection rate}
+
+\subsection{Significantly extended FELs}
+We detected significantly extended emission only in two objects, DF~Tau and UY~Aur. In both cases, the extension is seen in the [O~{\sc i}] lines, but is not significantly detected in any other FEL. The PVDs for these liens are shown in figures~\ref{fig:DFTau} and \ref{fig:UYAur}, the results are discussed in more detail in section~\ref{sect:discussion}.
+
+\citet{2003ApJ...583..334H} detected the {[}O I{]} 6300 Ang line in emission in
+a little more than half of the objects and all our candidates are on
+that list.
+
+
+
+
+
+
+\section{Discussion}
+\label{sect:discussion}
+
+We identify four candidates for extended emission in the {[}O I{]} line:
+UY Aur and DF Tau.
+
+\subsection{DF Tau}
+
+Flux of jet at 6302 A is 3.16692e-12 erg/(s*cm\^{}2*A*arcsec\^{}2),
+calculated within 0.2 contour.
+
+Flux of jet at 6365 A is 1.61763e-11 erg/(s*cm\^{}2*A*arcsec\^{}2) ~
+
+\object{DF Tau} is located at a distance of $125\pm6$~pc \citep{2016A&A...595A...1G,2018A&A...616A...1G}. It is a binary composed of two equal mass M2 dwarfs. The primary shows an SED excess, indicating the presence of a disk, and signatures of accretion, while the secondary seems to be devoid of circumstellar material \citep{2017ApJ...845..161A}. \citet{2004ApJ...609..261H} observed the jet of DF Tau with low-resolution slitless spectroscopy with STIS. They see jet and counterjet at a
+position angle of 127~degrees, but the binary is not resolved and it was unclear at the time which star was the origin of which outflow component. Given the absence of circumstellar material around the secondary component in spatially resolved observations \citep{2017ApJ...845..161A}, it seems very likely now that we are looking at a bipolar jet launched from the primary star. 
+The slitless data from \citet{2004ApJ...609..261H} was observed in 1999 and 2000,
+
+The PVD for DF Tau is shown in figure~\ref{fig:DGTau}
+using the stellar radial velocity from \citet{2006AstL...32..759G}.
+In our observations, the position angle of the slit was 153~degrees, only 26~degrees from the jet axis; our data is taken about one and two years before the two slitless exposures respectively. In the slitless images, both sides of the jet can be seen to about 0\farcs2. Figure~\ref{fig:DFTau} shows the long-slit data. Both sides of the jet can be traced to a similar distance. The observed speed of the approaching jet is about -150 to -200~km~s${-1}$; since we do not know the inclination angle with respect to the line-of-sight this is a lower boundary to the true jet speed. There are indications in Fig~\ref{fig:DFTau} for a jet component at a lower speed (around -100~km~s${-1}$), but this signal is not strong. We also see the red-shifted counter jet at a velocity around +150~km~s${-1}$.
+
+Reaches speed at XX. no more accelerations seen after that
+
+
+\subsection{UY Aur}
+
+Flux of jet at 6302 A is 4.10112e-13 erg/(s*cm\^{}2*A*arcsec\^{}2) ~
+
+Flux of jet at 6365 A is 1.18920e-12~erg/(s*cm\^{}2*A*arcsec\^{}2) ~
+
+\object{UY Aur} is  located at a distance of $156\pm2$~pc \citep{2016A&A...595A...1G,2018A&A...616A...1G}. It again is a binary system with two components of similar mass \citep[M0 and M2][]{2003ApJ...583..334H}. FELs in a jet were observed in 1988 by \citet{1997A&AS..126..437H} in ground-based observations with a position angle around 40~degrees. They trace the emission out to several arcsec in [O~{\sc i}]~6300~\AA{}. The spectral an spatial resolution of their data is not as good as what we present here, but it traces the jet out to larger distances. Their data indicate the presence of different emission components ranging from -240~km~s${-1}$ in the approaching jet to +180~km~s${-1}$ in the receeding jet. More recently \citet{2014ApJ...786...63P} performed adaptive-optics observations with an integral field unit (IFU) in the IR and they obtain detailed images in the [Fe~{\sc ii}] $\lambda$1.257~$\mu$m line. They detect blue-shifted emission in a circular region around the primary as well as in a ``brige'' that connects the primary and the secondary (offset by about 0\farcs2 to the north from the direct line connecting the primary and the secondary); redshifted emission is seen close to the primary on the side that faces towards the secondary as well as in the ``bridge'' region. Together with the absorption features observed in the stellar spectra, this suggest a geometry where the primary has a wide-angle, fast wind on both sides and a more collimated, red-shifted jet on the far side of the disk, in the direction of the secondary. The secondary does not have a wide-angle wind in [Fe~{\sc ii}] but only a collimated jet. In the ``bridge'' region we see the red-shifted jet of the primary and the blue-shifted jet of the secondary projected onto the same area of the sky.
+
+The long-slit in our data contains both stars of the binary and overlaps the ``bridge'' region in between. The slit is 0\farcs2 wide, so it contains some of the flux in the ``bridge'', but not the peak of the flux distribution. It is important to keep in mind that jets evolve. The data from \citet{1997A&AS..126..437H} was taken in 1988, our data in 1998 and the \citet{2014ApJ...786...63P} data in 2007. In ten years a feature moving at 200~km~s${-1}$ would move about 3\arcsec{} on the sky at the distance of UY~Aur. 
+
+We take the radial velocities from~\citet{2012ApJ...745..119N} for UY~Aur and show a PVD in figure~\ref{fig:UYAur}.
+Our data was taken at a position angle of 46\degr{}, just 6\degr{} from the measured jet orientation by \citet{1997A&AS..126..437H}.
+
+
+
+\section{Summary}
+\label{Sect:summary}
+
+
+
+\acknowledgments
+Support for this work was provided for AVU and HMG by NASA through
+grant GO-13766.010 from the Space Telescope Science Institute.This research made use of Astropy,\footnote{http://www.astropy.org} a community-developed core Python package for Astronomy \citep{2013A&A...558A..33A,2018AJ....156..123A}. 
+This work has made use of data from the European Space Agency (ESA) mission
+{\it Gaia} (\url{https://www.cosmos.esa.int/gaia}), processed by the {\it Gaia}
+Data Processing and Analysis Consortium (DPAC,
+\url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding for the DPAC
+has been provided by national institutions, in particular the institutions
+participating in the {\it Gaia} Multilateral Agreement.
+
+\facilities{HST (STIS), Gaia}
+\software{Astropy \citep{2013A&A...558A..33A,2018AJ....156..123A}}
+
+\bibliographystyle{aasjournal}
+\bibliography{bib.bib}
+
+\end{document}

@@ -193,15 +193,15 @@ processing pipeline as having a high dark current rate. No spatial extension is 
 \begin{center}
 \begin{tabular}{ccccc}
 \hline\hline
-source & velocity & 6300~\AA{} & 6363~\AA{} & $\dot M$\\ 
-       & km s$^{-1}$ & \multicolumn{2}{c}{$10^{-15}$ erg s$^{-1}$ cm$^{-2}$} &
+source & velocity & FWHM & 6300~\AA{} & 6363~\AA{} & $\dot M$\\ 
+       & km s$^{-1}$ & km s$^{-1}$ & \multicolumn{2}{c}{$10^{-15}$ erg s$^{-1}$ cm$^{-2}$} &
 $10^{-10}\;M_{\odot}$ yr$^{-1}$\\
 \hline
-DF Tau & -150 & 3 & 1 &  14\\
-DF Tau & -50 & 2 & .4 & 3\\
-DF Tau & +150 & 3 & 5 & 14\\
-UY Aur A & -150 & 0.6 & 2 & 5\\
-UY Aur A & +50 & 0.3 & 1 & 0.8\\
+DF Tau & -150 & 40 & 3 & 1 &  14\\
+DF Tau & -50 & 60 & 2 & .4 & 3\\
+DF Tau & +150 & 40 & 3 & 5 & 14\\
+UY Aur A & -150 & 30 & 0.6 & 2 & 5\\
+UY Aur A & +50 & 40 & 0.3 & 1 & 0.8\\
 \end{tabular}
 \end{center}
 \end{table}
@@ -216,8 +216,8 @@ UY Aur A & +50 & 0.3 & 1 & 0.8\\
 of DF Tau; the two components of the binary are not resolved. The x-axis
 shows the velocity with respect to the feature rest wavelength in the
 velocity frame of the star and the y-axis is the distance along the slit. The
-continuum emission from the two stars has been subtracted. The color scale is chosen to highlight faint emission features; negative values or brighter fluxes are shown as purple or yellow, respectively. Contours show flux densities in $10^{-14}$~erg~s$^{-1}$~cm$^{-2}$~\AA{}$^{-1}$~arcsec$^{-2}$.
-The \replaced{black}{red} lines highlight the jet emission. They were plotted by doing the Gaussian fit to each of the rows in the vicinity of the jet emission and taking the mean of those fits. The uncertainty of the resulting fits lies within the line thickness.
+continuum emission from the two stars has been subtracted. The color scale is chosen to highlight faint emission features; negative values or brighter fluxes are shown as purple or yellow, respectively. \added{The white lines correspond to the means of each of the stars, which were obtained from a Gaussian fit.} Contours show flux densities in $10^{-14}$~erg~s$^{-1}$~cm$^{-2}$~\AA{}$^{-1}$~arcsec$^{-2}$.
+\added{The red lines a peaks of emission components (see text for details).} 
 \label{fig:DFTau}}
 \end{center}
 \end{figure}
@@ -226,7 +226,7 @@ corrected for the stellar radial velocity from \citet{2006AstL...32..759G}.
 To quantify outflow velocities and fluxes, we fit Gaussian emission components
 to each row of data in the figure. \added{Red lines in the figure mark the peak
 positions of those emission components in places where they can be clearly
-distinguished}. We add the fluxes from all fitted Gaussians further than three pixels from the star center for each outflow component
+distinguished. They were plotted by doing the Gaussian fit to each of the rows in the vicinity of the jet emission and plotting the mean of those fits. The uncertainty of the resulting fits lies within the line thickness. An example of the resulting fits is shown in Fig~\ref{fig:Jet_Fit}}. We add the fluxes from all fitted Gaussians further than three pixels from the star center for each outflow component
 in table~\ref{tab:flux}. Uncertainties on these fluxes are dominated by the
 subtraction procedure and can be estimated by comparing the fluxes seen in
 [O~{\sc i}]~6300\AA{} and [O~{\sc i}]~6363\AA{} lines, whose theoretical ratio
@@ -258,6 +258,15 @@ image of UY Aur; The x-axis shows the velocity with respect to the
 feature rest wavelength in the velocity frame of the star UY Aur
 A and the y-axis the distance along the slit. Both components of the UY Aur AB binary are shown.
 \label{fig:UYAur}
+}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.49\textwidth]{Jet_Fit.pdf}
+\caption{\added{The examples of jet component fits for DF Tau 6300 for three different rows. Each plot is labeled with the angular coordinate corresponding to that pixel row. The top plot corresponds to the blue-shifted component with the two Gaussians resolved. The middle plot corresponds to the red-shifted component close to the star, while the bottom plot corresponds to the faintest part of the red-shifted component. The Gaussian fit works well in all of these cases.} 
+\label{fig:Jet_Fit}
 }
 \end{center}
 \end{figure}

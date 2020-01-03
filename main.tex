@@ -1,4 +1,4 @@
-\documentclass[twocolumn,trackchanges]{aastex62}
+\documentclass[twocolumn,trackchanges]{aastex63}
 
 \usepackage{graphicx}
 \usepackage{url}
@@ -64,12 +64,16 @@ conservation of angular momentum demands that some mass is ejected and
 carries away the angular momentum accreted through
 the disk. Mass
 loss occurs through wide-angle disk winds, but in some systems we 
-also see highly collimated jets. These jets typically have an onion-like
+also see highly collimated jets \added{\citep[see][for a review]{2014prpl.conf..451F}}. These jets typically have an onion-like
 structure with a fast component at the center surrounded by increasingly
 slower and less collimated components further
 out \citep{2000ApJ...537L..49B}. Forbidden optical emission lines (FELs) are a
 good way to find and study such jets, since the stellar photosphere and
-the accretion shock are too dense to contribute significantly to the emission. If a
+the accretion shock are too dense to contribute significantly to the emission. 
+
+
+
+If a
 jet is detected in several emission lines, line ratios can be used to
 calculate density and ionization fraction of emission components in the
 jet with typical densities in the range~$10^3-10^5\;\mathrm{cm}^{-3}$
@@ -287,23 +291,54 @@ aperture, so hot that oxygen is ionized or so cool that that  [O~{\sc i}] 6300\A
 \dot M  & = & 5.95\times10^{-8} \left(\frac{n_e}{10^3\textnormal{ cm}^{-3}}\right)^{-1}\left(\frac{L_{6300}}{10^{-4} L_{\sun}}\right) \nonumber\\
  & & \times \left(\frac{v_{sky}}{100\textnormal{ km s}^{-1}}\right)\left(\frac{l_{sky}}{10^{16}\textnormal{ cm}}\right)^{-1} M_{\sun} \textnormal{ yr}^{-1} \ ,
 \end{eqnarray}
-which is eqn.~10 from \citet{1994ApJ...436..125H}. Numbers are given in
+which is eqn.~10 from \citet{1994ApJ...436..125H}. 
+\deleted{Numbers are given in
 table~\ref{tab:flux} assuming a density of $n_e = 10^{3}$~cm$^{-3}$ and scale
-with $1/n_e$. Since no other FELS are detected, the only known constraint in
-density is that it is below the critical density for [O~{\sc i}]. Given the
+with $1/n_e$.} 
+Since no other FELS are detected, the only known constraint in
+density is that it is below the critical density for [O~{\sc i}].
+\added{For the following discussion, we will use $n_e =
+  10^{3}$~cm$^{-3}$ as the fiducial density because this number was observed in
+the jet of DG~Tau \citep{2000A&A...356L..41L}, a well-studied collimated
+outflow in the same star forming region, launched from a star of similar age
+and only slightly earlier spectral type (K6 vs M0-M2). In practice, the density
+likely varies along the jet (as it does in the jet from DG~Tau) and might also
+differ between DF~Tau and UY~Aur. All values for the outflow mass flux scale
+with $1/n_e$.}
+ \deleted{Given the
 uncertainties on all input parameters, the calculated $\dot M$ is uncertain to
-factors of a few, for a given density.
+factors of a few, for a given density.}
+\added{Even if the density was known in some
+  way (e.g.\ a future observation), the uncertainty in the remaining factors in
+  the equation would still make the estimated mass loss uncertain by a factor
+  of a few.}
 
 
 
 \section{Discussion}
 \label{sect:discussion}
-We detect spatially extended emission in about 10\% of observations. In the
+We detect spatially extended emission in about 10\% of observations. 
+\added{The two components of the DF~Tau binary are the strongest accretors in
+  the sample \citep{2003ApJ...583..334H}, while UY Aur is close to the
+  median. 
+If mass flux of the outflow is roughly
+  proportional to the accretion rate as suggested by observations \citep{1990ApJ...354..687C,2008ApJ...689.1112C},
+  then we would not expect to detect outflows from any source with accretion
+  weaker than UY~Aur. There are six binaries in the sample with accretion rates
+between UY~Aur and DF~Tau, where a jet could be detected, if it scales with the
+accretion rate and happens to be roughly aligned with the slit in the
+observations. Assuming that we can detect spatially resolved emission for jets
+misaligend with the slit up to about 30~degrees, actually detecting jets in
+three out of 16 stars (eight binaries) with mass accretion rates of UY~Aur or
+higher, is statistically consistent with all stars having jet emission in a
+random orientation.}
+\removed{In the
 remaining objects, jets must be either weak, not present, or simply not aligned
-with the slit in the observations. However, the fact that the two objects with
-extended emission are also the two objects that show multiple kinematic
+with the slit in the observations.} However, the fact that the two \removed{objects with
+extended emission are also the two objects that show}\added{binaries where extended
+  emission is seen are the same binaries where at least one component shows} multiple kinematic
 components in the [O~{\sc i}] emission lines \citep{2003ApJ...583..334H}
-suggest that the other objects may not have as pronounced outflows.
+suggests that the other objects may not have as pronounced outflows.
 
 We compare our detections to other observations of the same jets in the literature to put the properties of these jets into context.
 
@@ -332,7 +367,8 @@ This data was taken about one and two years before the two slitless exposures of
 \object{UY Aur} is  located at a distance of $156\pm2$~pc
 \citep{2016A&A...595A...1G,2018A&A...616A...1G}. It again is a binary system
 with two components of similar mass \citep[M0 and M2,
-  see][]{2003ApJ...583..334H}. \citet{2003ApJ...583..334H} determine very
+  see][]{2003ApJ...583..334H}\addded{ but a much larger separation (projected
+  140~au) than DF Tau.}. \citet{2003ApJ...583..334H} determine very
 similar mass accretion rates around
 $\dot M=2\times10^{-8}$~M$_{\sun}$~yr$^{-1}$, which, like in DF~Tau, is about
 one to two orders of magnitude higher than the summed mass outflow rates we

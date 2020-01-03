@@ -1,0 +1,23 @@
+We thank the referee for a timely and knowledgable response to our submission. We have taken all the referee's suggestions into account when we prepared the revised version of our manuscript. All changes are clearly marked in the revised manuscript, using the LaTeX markup commands provided by the AAStex classes for this purpose.
+
+Before we reply to the individual issues raised in the referee's report, we want to make a general remark that applies to the points 1,2,3, and 5 in the referee's report: Our analysis uses the exact same data as in Hartigan & Kenyon (2003), adding just one aspect to the analysis: Systematically searching for spatially extended signatures in the FELs to identify jets. As taken, the data is neither well suited to find jets (narrow band imaging would find extended FEL emission in all directions, not just aligned with the slit), nor to study the different velocity components in the jets (for this, one would align the slit with the jet axis). We do indeed find two jets and are able to say sometihng about their velocity structure, and, like the referee, we beleive that these results are worthy of publication.
+However, given the limitations of the data, and the fact that source properties are already discussed in detail by Hartigan & Kenyon (2003), we aim to keep this publication relatively short. We thought about submitting it as a letter, but for data that is > 20 years old, it is hard to argue that the results absolutely require immidiate publication.
+Still, our original manuscript was already 7 pages long, and we really want to focus on what we found here and refer to reviews for more in-depth discussion. In this revised version, we have added more detail to the introduction and the interpretation, as requested by the referee, please see below for details.
+
+Reply to individual points
+--------------------------
+
+>>> 1) The paper deals with spectroscopic position-velocity diagrams
+       of jets from young stellar objects (YSO).  A seminal paper to
+       this method, and also applied to YSO, in particular to DG Tau,
+       has been published by Solf & Boehm 1993. It is obvious by any
+       scientific standards, to give a reference to this fundamental
+       paper. Similarly, Solf & Boehm (1999) present long-slit spectra
+       from the T Tau binary system. Why have these papers not been
+       cited and discussed?  Another paper that is related and must be
+       discussed is Mundt et al. (2010) on jets from the spectroscopic
+       binary KH15D.
+
+As described above, we attempted to keep the introduction short and we thus decided to concentrate on discussing previous literature that probes the same distances and jet components. Both Solf & Boehm articles brought up by the referee are based on Calar Alto observations. A 2.2m telescope on the ground necessarily probles larger distances from the central star, about 1"=130 au in the case of DG Tau. That's more than twice as far as the furthest distance where we see signal in our data. At larger distances, the physics of the jets are dominated by interactions with the interstellar medium or by internal working surfaces, at smaller distances, they still show more of the signatures of the jet launching.
+The Mundt et al. (2010) paper that the referee pointed out is again ground-based data, in this case VLT spectroscopy with no spatial information.
+In light of the referee's comments we have expanded our introduction to cover these and other literature results, that are less relevant for the current work, but nevertheless provide background information.

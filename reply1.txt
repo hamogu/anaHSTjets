@@ -12,7 +12,7 @@ is neither well suited to find jets (narrow band imaging would find extended
 FEL emission in all directions, not just aligned with the slit), nor to study
 the different velocity components in the jets (for this, one would align the
 slit with the jet axis). We do indeed find two jets and are able to say
-sometihng about their velocity structure, and, like the referee, we believe
+something about their velocity structure, and, like the referee, we believe
 that these results are worthy of publication.  However, given the limitations
 of the data, and the fact that source properties are already discussed in
 detail by Hartigan & Kenyon (2003), we aim to keep this publication relatively
@@ -20,8 +20,9 @@ short. We thought about submitting it as a letter, but for data that is > 20
 years old, it is hard to argue that the results absolutely require immediate
 publication.  Still, our original manuscript was already 7 pages long (using a
 LaTeX style close to publication layout), and we really want to focus on what
-we found here and refer to reviews for more in-depth discussion. In this
-revised version, we have added more detail to the introduction and the
+we found here and refer to reviews for more in-depth discussion. 
+
+In this revised version, we have added more detail to the introduction and the
 interpretation, as requested by the referee, please see below for details.
 
 Reply to individual points
@@ -42,7 +43,7 @@ As described above, we attempted to keep the introduction short and we thus
 decided to concentrate on discussing previous literature that probes the same
 distances and jet components. Both Solf & Boehm articles brought up by the
 referee are based on Calar Alto observations. Due to seeing, a 2.2m telescope
-on the ground necessarily probles larger distances from the central star, about
+on the ground necessarily probles larger distances from the central star, of order
 1"=130 au in the case of DG Tau. That's more than twice as far as the furthest
 distance where we even see signal in our data. At larger distances, the physics
 of the jets are dominated by interactions with the interstellar medium or by
@@ -71,6 +72,24 @@ information.
        It is essential to put the observational results claimed in the
        manuscript in some theoretical context.
 
+As for the referee's point 1, we have expanded our introduction to bring in
+more of the theoretical background. We note that in particular the articles by
+Sheikhnezami et al. (2015, 2018) have very extensive introductions we refer the
+reader to review those for more a thorough discussion of theoretical
+approaches. It is worth noting though, that numerical simulations of wide
+binaries are still too expensive to perform, e.g. Sheikhnezami et al. (2018) is
+limited to a binary separation of about 15 au, which comes close to the
+separation of DF Tau, but is an order of magnitude smaller than e.g. the
+separation of UY Aur, where we would thus expect the jet to evolve more like
+the jet in a single star than in a close binary. Furthermore, we do not know
+the alignments between disks, jets, and binary orbit, thus a direct comparison
+with theoretical prediction from e.g. Sheikhnezami et al. (2015, 2018) cannot
+be performed with this dataset. It is for these reasons that we did not
+describe the theoretical work mentioned in the referee's report in our original
+manuscript and add only a few sentences to the introduction and discussion
+section now.
+
+
 >>> 3) Also in respect to my point 2) the authors need to discuss in more depth
        the absence of a jet signal for the rest of their sources. Although they
        briefly mention some possible reasons (eg the wrong alignment of the
@@ -85,7 +104,7 @@ ALMA with a position angle of 177 ± 11 degrees and an
 inclination of 56 ± 16 degrees"). However, a complete literature review on all
 stars in our sample is beyond the scope of the paper. Stellar properties,
 binary separations and the presence of accretion (accretion clearly implies a
-disk) is discussed in Hartigan & Kenyon (2003) and we consistently refer the
+disk) is discussed in Hartigan & Kenyon (2002) and we consistently refer the
 reader back to that work in our manuscript. We added a few more thoughts on the
 absence of spatially resolved jet signals, but -- as we explain above -- this
 dataset is not well suited to perform a robust analysis of sample statistics
@@ -99,7 +118,16 @@ There is no obvious correlation with binary separation. DF Tau is a fairly
 tight binary (~10 au, projected) and UY Aur is a wide binary (150 au,
 projected). The group of non-detections with accretion rates >= UY Aur contains
 binaries with separations just in between from 15 au (projected) to 130 au
-(projected). 
+(projected). Binaries with no accretion (and presumably no disk is most cases) also do
+not have revolved FELs. However, we do not think that this fact is especially
+noteworthy.
+
+ Hartigan & Kenyon (2002) discuss line profile in [O I] - an outflow tracer -
+and note that DF Tau and UY Aur are the only stars where the [O I] lines
+profile shows any complexity - so their outflows must be different in some way
+from the rest of the sample. This indicates that the stars where we do not
+detect extended FELS might actually not have them, but again this dataset is
+not well suited to make firm conclusions because we depend on the slit angle.
 
 >>> 4) The mass fluxes calculated in the manuscript are highly uncertain. The
        authors clearly state this point and also give an error estimate. Still,
@@ -118,14 +146,13 @@ and thus we have been very careful to always say "assuming a density of ..."
 (e.g. Sect 4.1 and 4.2 in the original version of the manuscript). As we state
 in Sect 3.3, the density could be any value below the critical density and eqn
 1 shows that \dot M \propto n_e^{-1}. We just want to adopt one number as a
-fiducial for the ease of the discussion. n_e = 10^3 is not completely
-arbitrary, but taken from observations of DG Tau, a jet that seems comparable
-to our data in many respects (mass and age of star, outflow velocity). The
-reference for that was given in the introduction, but we forgot to repeat it in
-section 3.3. That is fixed in the new version of the manuscript along with a
-mention of potentially changing densities along the jet. Unfortunately, there
-is not much more we can do, given that we do not detect other density-sensitive
-lines.
+fiducial for the ease of the discussion. n_e = 10^3 is not arbitrary, but taken
+from observations of DG Tau, a jet that seems comparable to our data in many
+respects (mass and age of star, outflow velocity). The reference for that was
+given in the introduction, but we forgot to repeat it in section 3.3. That is
+fixed in the new version of the manuscript along with a mention of potentially
+changing densities along the jet. Unfortunately, there is not much more we can
+do, given that we do not detect other density-sensitive lines.
 
 In the sentence at the end of Sect 3.3 where we discuss uncertainties, we
 already said "...is uncertain to a factors of a few, for a given density". What
@@ -158,6 +185,18 @@ that shows the details for both the bright and the faint regions of the
 plot. We have added a new figure, and put an expanded explanation into the
 text.
 
+As for the white lines: In DF Tau, we agree that the figure would be fine
+without it, since we place the origin of our coordinate system at y = 0 and in
+DF Tau both components of the binary are so close that they cannot be
+distinguished. However, in UY Aur, the second component of the binary is
+located ~0.8 arcseconds away and also shows FEL emission features in Fig
+2. Since this does not fall on a natural grid line, we find that marking the
+position of the secondary greatly eases reading of the figure. It immediately
+shows that the emission component at (0 km/s, -0.8") in Fig 2 is just an
+artifact from the reduction of the second component of the binary. To avoid
+confusion and keep the figures consistent, we have decided to also keep the
+white line in the DF Tau figure.
+
 >>> 6) A general question is why the authors talk about "jets" in their paper?
        From their data they do not have information about the structure of
        these outflows. Are these outflows actually collimated? Could there
@@ -181,33 +220,14 @@ Note that this does not exclude the possibility that inflows exist in some
 form, but the gas flows observed in our data must be outflows. This is also
 fully consistent with other objects, where the PVDs looks like our
 data, but the jet has been observed multiple times such that motion of
-individual features can be tracked (e.g. DG Tau (Rodriguez et al, 2012) or HD
-163296 (Ellerbroek et al. 2014)
+individual features can be tracked, e.g. DG Tau (Rodriguez et al, 2012) or HD
+163296 (Ellerbroek et al. 2014).
 
 Why do we talk about "jets" as opposed to "outflows"? While our data does not
 resolve the outflows spatially, we do in fact have some handle on the spatial
-distribution of the outflows from the velocity information. For example, in DF
-Tau (Fig 1) there is a single red-shifted component with a well-defined
-velocity peak (remember that the color scale in those figures is not linear,
-compare to the new figure). That is easily explained by a well-collimated
-jet. On the other hand, a wide-angle outflow would cause a wide spread of
-velocities. For illustration, we can think about a homogeneous outflow with a
-half opening angle of 45 degrees and an inclination to the line-of-sight of 45
-degrees. Since sin i ranges from 0..1 in that case we would see all velocities
-from 0 to v_outflow. There are so many free parameters (inclination of the
-system, alignment between disk and jet axis, radial profile of mass flux and
-velocity of the hypothetical wide-angle outflow) that a detailed simulation is
-not useful at this point (and thus we do not discuss this in detail in the
-paper), but it is clear that the outflows must be somewhat collimated, which is
-why we call them a "jet". 
-
-#### Use Mundt 1990 eqn 5. That can actually go into the text. Also allows me
-     to shorten this answer considerably.
-
-Note also, that for both objects, the outflow has in fact been imaged (Hartigan
-et al, 2004 for DF Tau and Pyo et al., 2014) and thus we know that we are
-dealing with a highly collimated outflow, which we can reasonably call a "jet". 
-
-However, there is no commonly agreed limit in opening
-angle that divides jets from other, less-collimated outflows, so we have added
-some wording to the article to clarify this.
+distribution of the outflows from the velocity information. We can measure the
+FWHM of the velocity distribution in the outflows. For diverging stream lines,
+this will be dominated by the geometrical divergence. For any reasonably
+inclination, the opening angles for the outflows from DF Tau and UY Aur must be
+< 3 degrees, so we can safely call this a "jet". We added a new paragraph to the
+data analysis section in the manuscript with details.

@@ -1,7 +1,10 @@
 We thank the referee for a timely response to our submission. We have taken all
 the referee's suggestions into account when we prepared the revised version of
-our manuscript. All changes are clearly marked in the revised manuscript, using
-the LaTeX markup commands provided by the AAStex classes for this purpose.
+our manuscript. All changes to the content are clearly marked in the revised
+manuscript, using the LaTeX markup commands provided by the AAStex classes for
+this purpose. In addition, we have corrected a handfull of typos with no change of
+content (missing "s" in plural, missing comma, beginning of sentence not capitalized).
+For simplicity, those are not marked in bold font.
 
 Before we reply to the individual issues raised in the referee's report, we
 want to make a general remark that applies to the points 1,2,3, and 5 in the
@@ -43,7 +46,7 @@ As described above, we attempted to keep the introduction short and we thus
 decided to concentrate on discussing previous literature that probes the same
 distances and jet components. Both Solf & Boehm articles brought up by the
 referee are based on Calar Alto observations. Due to seeing, a 2.2m telescope
-on the ground necessarily probles larger distances from the central star, of order
+on the ground necessarily probes larger distances from the central star, of order
 1"=130 au in the case of DG Tau. That's more than twice as far as the furthest
 distance where we even see signal in our data. At larger distances, the physics
 of the jets are dominated by interactions with the interstellar medium or by
@@ -107,7 +110,7 @@ binary separations and the presence of accretion (accretion clearly implies a
 disk) is discussed in Hartigan & Kenyon (2002) and we consistently refer the
 reader back to that work in our manuscript. We added a few more thoughts on the
 absence of spatially resolved jet signals, but -- as we explain above -- this
-dataset is not well suited to perform a robust analysis of sample statistics
+data set is not well suited to perform a robust analysis of sample statistics
 for jets in binaries. Imaging observations would be far more useful. We are
 clearly limited by the choice of slit orientations, which was chosen based
 on the position of the binaries on the sky at the time of observations. Only
@@ -231,3 +234,7 @@ this will be dominated by the geometrical divergence. For any reasonably
 inclination, the opening angles for the outflows from DF Tau and UY Aur must be
 < 3 degrees, so we can safely call this a "jet". We added a new paragraph to the
 data analysis section in the manuscript with details.
+
+
+Other changes
+After the submission of our manuscript Beck & Bary (2019) published H_2 observations of UY Aur, which nicely match the [Fe II] observations of Pyo et al (2014), which we already discuss in the article. We added a reference to Beck & Bary (2014).

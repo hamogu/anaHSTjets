@@ -1,0 +1,64 @@
+We thank the referee for the extremely fast turn-around time in the
+review of our revised manuscript. We address the remaining points of
+concern below and have changed the text accordingly.  As before, we
+have marked our changes using AASTeX revision markup features.
+
+Responses to individual points are listed below.
+
+> In fact,
+> the dates when the data were taken are never explicitly detailed, not
+> in the abstract, not in the summary.  It is mentioned somehow hide (by
+> purpose?) as HST ID 7310 at the beginning of Sect.2. and also in
+> detail in Tab.1.  I think it is essential to tell this more openly to
+> the reader (in abstract, summary).
+
+We want to point out that we did not "hide" the observations dates. They are clearly listed in Table 1, which promiently spans about half a
+page. Our text also provides ample citation to Harigan & Kenyon
+(2003), who analysed the data before us, so it clearly must have been
+taken before 2003.
+
+Nevertheless, we see no harm in pointing out the dates in more places
+- in our opinion the fact that we can still learn something new from
+"old" data is a testament to the value of a well-kept archive!
+
+> The authors have now expended their introduction.
+> References in particular to the theoretical background have been added.
+> However, I'm not really happy about the chosen literature.  For
+> example, I think there are more prominent and more elaborate reviews
+> than that of Lovelace et al., who mainly reviews the work of his own
+> group.
+> Also the cited literature is in general rather old.  I
+> really suggest to update the list of references, as it is now, also
+> the manusscript looks "old", not only the data.
+
+We agree that a significant fraction of our citations are references
+to seminal papers such as Bandfort & Payne (1982). We have expanded
+the introduction again to cover more of the theoretical work in the
+last 5-6 years.
+
+> The citations are
+> partly wrong. Neither Casse and Keppens, nor Dyda did ideal MHD
+> simulations.
+
+Our wording was "limited to lower dimensions and/or ideal MHD". Both
+references are examples for simulations with < 3D (2.5 D in this
+case). We have switched the order to "ideal MHD and/or less than three
+full dimensions" to avoid a misunderstanding here. Casse & Keppens
+use a resistive accretion disk and ideal MHD in the jet.
+
+> Therefore, also the summary needs to be improved.
+
+We have added a few more details to the summary. We regard the
+following facts of main results of this study:
+
+- Jets are resolved for those two stars with complex [O I] line profiles at the stellar position.
+- In DF Tau, the HVC is accelarated within 15 au.
+- In DF Tau, HVC and MVC seem to be part of the collimated outflow.
+- The outflow patter in UY Aur is stable over at least a decade.
+
+
+> I had cited the "factors of a few" in my last report, but I again
+> state it could be be a "factor of 100".  I just wanted the authors to
+> clearly tell the error in the numbers they publish.
+
+We have tried to clarify further in the text and in table 3.
